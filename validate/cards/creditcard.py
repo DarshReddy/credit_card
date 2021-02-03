@@ -1,4 +1,4 @@
-from pycards.cards.card import Card
+from validate.cards.card import Card
 
 
 class CreditCard(Card):

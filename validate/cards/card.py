@@ -2,7 +2,7 @@ import re
 import json
 import math
 from datetime import datetime
-from pycards.settings import DATABASE_PATH
+from validate.settings import DATABASE_PATH
 
 
 class NoDatabaseExist(Exception):

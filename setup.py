@@ -8,14 +8,12 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='python-cards',
+    name='credit_card',
     version='1.3',
-    url='https://github.com/mrlucascardoso/pycards',
-    license='MIT License',
-    author='Lucas Cardoso',
-    author_email='mr.lucascardoso@gmail.com',
+    url='https://github.com/darshreddy/credit_card',
+    author='Darsh Reddy',
     keywords='creditcard',
-    description='Set of classes for validating, identifying and formatting do credit cards and debit cards.',
+    description='Set of classes for validating, identifying and formatting do credit cards.',
     packages=find_packages(),
     install_requires=[],
     test_suite='tests',
@@ -24,10 +22,7 @@ setup(
     include_package_data=True,
     long_description=README,
     classifiers=[
-        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5'
     ],

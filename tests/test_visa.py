@@ -1,8 +1,8 @@
 import json
 import pytest
-from pycards import CreditCard
+from validate import CreditCard
 from datetime import datetime
-from pycards.settings import FIXTURES_PATH
+from validate.settings import FIXTURES_PATH
 
 
 @pytest.fixture(scope="session")
