@@ -1,1 +1,1 @@
-from pycards.cards.creditcard import CreditCard
+from validate.cards.creditcard import CreditCard
